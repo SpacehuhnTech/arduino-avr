@@ -15,6 +15,7 @@ menu.bridge0=Serial Bridge GPIO-0 Pin
 dstike.name=DSTIKE WiFi Duck (ATmega32u4)
 
 dstike.upload.tool=avrdude
+dstike.upload.tool.serial=avrdude
 dstike.upload.protocol=avr109
 dstike.upload.maximum_size=28672
 dstike.upload.maximum_data_size=2560
