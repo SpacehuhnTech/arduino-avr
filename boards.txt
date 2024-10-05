@@ -14,6 +14,7 @@ menu.bridge0=Serial Bridge GPIO-0 Pin
 
 dstike.name=DSTIKE WiFi Duck (ATmega32u4)
 
+dstike.upload.tool.serial=avrdude
 dstike.upload.tool=avrdude
 dstike.upload.protocol=avr109
 dstike.upload.maximum_size=28672
@@ -96,6 +97,7 @@ dstike.menu.debug.serial.build.debug_flags=-DENABLE_DEBUG -DDEBUG_PORT=Serial -D
 
 atmega32u4.name=Generic ATmega32u4
 
+atmega32u4.upload.tool.serial=avrdude
 atmega32u4.upload.tool=avrdude
 atmega32u4.upload.protocol=avr109
 atmega32u4.upload.maximum_size=28672
@@ -381,6 +383,7 @@ atmega32u4.menu.bridge0.23.build.bridge_0=-DBRIDGE_0=23
 
 leonardo.name=Arduino Leonardo
 
+leonardo.upload.tool.serial=avrdude
 leonardo.upload.tool=avrdude
 leonardo.upload.protocol=avr109
 leonardo.upload.maximum_size=28672
@@ -652,6 +655,7 @@ leonardo.menu.bridge0.23.build.bridge_0=-DBRIDGE_0=23
 
 micro.name=Arduino Micro
 
+micro.upload.tool.serial=avrdude
 micro.upload.tool=avrdude
 micro.upload.protocol=avr109
 micro.upload.maximum_size=28672
@@ -931,6 +935,7 @@ micro.menu.bridge0.23.build.bridge_0=-DBRIDGE_0=23
 
 promicro.name=Sparkfun Pro Micro
 
+promicro.upload.tool.serial=avrdude
 promicro.upload.tool=avrdude
 promicro.upload.protocol=avr109
 promicro.upload.maximum_size=28672
@@ -1168,6 +1173,7 @@ promicro.menu.bridge0.21.build.bridge_0=-DBRIDGE_0=21
 
 cjmcu.name=CJMCU Beetle
 
+cjmcu.upload.tool.serial=avrdude
 cjmcu.upload.tool=avrdude
 cjmcu.upload.protocol=avr109
 cjmcu.upload.maximum_size=28672
@@ -1359,6 +1365,7 @@ cjmcu.menu.bridge0.20.build.bridge_0=-DBRIDGE_0=20
 
 ssmicro.name=SS Micro
 
+ssmicro.upload.tool.serial=avrdude
 ssmicro.upload.tool=avrdude
 ssmicro.upload.protocol=avr109
 ssmicro.upload.maximum_size=28672
